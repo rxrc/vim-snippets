@@ -7,7 +7,7 @@ snippet sapmlabel
 				textDirection : $6,
 				width : $7,
 				required : $7
-			});
+			})
 
 snippet sapmtext
 	var $1 = new sap.m.Text({
@@ -18,7 +18,7 @@ snippet sapmtext
 				textAlign : $6,
 				width :$7,
 				maxLines :$8
-			});
+			})
 
 snippet sapmbutton
 	var $1 = new sap.m.Button({
@@ -31,7 +31,7 @@ snippet sapmbutton
 				iconFirst : $8,
 				activeIcon :$9,
 				iconDensityAware : $10,
-			});
+			})
 snippet sapmflexbox
 	var $1 = new sap.m.FlexBox({
 				visible : $2,
@@ -44,7 +44,7 @@ snippet sapmflexbox
 				justifyContent :$9,
 				alignItems : $10,
 				items:[]
-			});
+			})
 snippet sapmhbox
 	var $1 = new sap.m.HBox({
 				visible : $2,
@@ -57,7 +57,7 @@ snippet sapmhbox
 				justifyContent :$9,
 				alignItems : $10,
 				items:[]
-			});
+			})
 
 snippet sapmvbox
 	var $1 = new sap.m.VBox({
@@ -71,7 +71,7 @@ snippet sapmvbox
 				justifyContent :$9,
 				alignItems : $10,
 				items:[]
-			});
+			})
 
 snippet sapcomponent
 	sap.ui.controller("$1", {
@@ -83,7 +83,7 @@ snippet sapcomponent
 	   },
 	   onExit: function() {
 	   },
-	});
+	})
 
 snippet sapminput
 	var $1 = new sap.m.Input({
@@ -117,9 +117,9 @@ snippet sapminput
 		valueHelpRequest :$29,
 		suggest : $30,
 		suggestionItemSelected : $31
-	});
+	})
 snippet _sthis
-	var _self = this;
+	var _self = this
 
 snippet sapmresponsivepopup
 	var $1 = new sap.m.ResponsivePopover({
@@ -148,7 +148,7 @@ snippet sapmresponsivepopup
 				afterOpen : $21, //fnListenerFunction or [fnListenerFunction, oListenerObject] or [oData, fnListenerFunction, oListenerObject]
 				beforeClose : $22, //fnListenerFunction or [fnListenerFunction, oListenerObject] or [oData, fnListenerFunction, oListenerObject]
 				afterClose : $23 //fnList
-			});
+			})
 
 snippet sapicon
 	var $1 = new sap.ui.core.Icon({
@@ -164,7 +164,7 @@ snippet sapicon
 					activeBackgroundColor :$10 , //sap.ui.core.CSSColor
 					visible :$11 , //boolean (default: true)
 					decorative : $12 ,//boolean (default: true)
-				});
+				})
 snippet extendVerticalL
 	sap.ui.layout.VerticalLayout.extend("$1", {
 	    metadata: {
@@ -183,7 +183,7 @@ snippet extendVerticalL
 	    },
 
 	    renderer: "$6"
-	});
+	})
 snippet extendHorizontalL
 	sap.ui.layout.HorizontalLayout.extend("$1", {
 	    metadata: {
@@ -202,4 +202,4 @@ snippet extendHorizontalL
 	    },
 
 	    renderer: "$6"
-	});
+	})
